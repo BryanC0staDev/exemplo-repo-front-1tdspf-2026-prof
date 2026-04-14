@@ -1,19 +1,42 @@
+*{
+    margin 0 0 0 0;
+    border:border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 75vw;
+    height: 100vh;
+    border: 2px solid #fff;
+
+}
+
+h1{
+    widht: 100px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    
+}
+header>h1{
+    display:inline;
+    margin-top;
+}
+
 
 body{
-    background-color: white;
-    color: white;
+    background-color: black;
+    color: black;
 }
+
 #cabecalho {
     color: wheat;
-    margin: 10px    ;
+    margin: 10px;
     
 }
 
 #menu ul{
     list-style-type: none;
-    margin: 0;
+    margin: 4;
     padding:0;
-    ;
 }
 #menu ul li{
 float:  left;
@@ -21,7 +44,7 @@ float:  left;
 
 #menu ul li a{
     display: block;
-    color: rgb(7, 104, 13);
+    color: rgb(61, 192, 69);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -31,7 +54,7 @@ float:  left;
   background-color: #120101;
 }
 #menu ul li a.active{
-    background-color: #02210e;
+    background-color:rgb(189, 189, 189);
 }
 #menu ul li {
   float: left;
@@ -42,13 +65,15 @@ float:  left;
   border-right: none;
 }
 
- #cabecalho h1 {
+ #cabecalho  { 
     font-family: Courier New, monospace;
     margin-top : 10px    ;
+
 }
+
 #hero h2 {
 margin-top: 80px;
-color: #061c01;
+color:rgb(223, 233, 221);
 font-family: Courier New, monospace;
 }
 #hero a {
@@ -72,5 +97,12 @@ color: #f4f4f4;
 }
 #hero p{
     padding: 10px;
+    color: wheat;
 }
+.rodape p {
+    color:white;
+}
+
+
+
 
