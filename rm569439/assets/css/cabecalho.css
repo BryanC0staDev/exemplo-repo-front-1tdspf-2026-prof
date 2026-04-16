@@ -1,23 +1,33 @@
 @import url('./assets/css/base.css');
-@import url('./assets/css/cabecalho.css');
 
 
-* { 
-    background-color: antiquewhite;
-}
 
 
 .cabecalho ul li {
-  list-style: none;
+    list-style: none;
+    display: inline-flex;
+    margin: 0.2%;
+    margin-left: 12%;
+
 }
-.cabecalho a{
-    font-size: 130%;
+
+.cabecalho a {
+    font-size: 140%;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     text-align: left;
     text-decoration: none;
-    word-spacing: 0.1vw;
+    word-spacing: 0%;
     line-height: 90%;
+    color: #080808;
+    background-color: #ccc;
 
 }
+
+
+
+.cabecalho a:hover {
+    color: white;
+}
+

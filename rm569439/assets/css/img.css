@@ -9,27 +9,28 @@
 
 
 #imagem_basquete {
-    width: 25%;
-    margin: 3vw 3vw;
+    width: 80%;
+    margin: 9% 8%;
     border-radius: 30%;
-    filter: drop-shadow(0px 0px 30px #9ff0b1);
-
-
+    filter: drop-shadow(0px 0px 30px #000000);
+    background-color: #ccc;;
 }
 
 #imagem_jogador {
-    width: 29.9%;
-    margin: 3vw 3vw;
+    height: 32vh;
+    width: 80%;
+    margin: 17% 10%;
     border-radius: 30%;
-    filter: drop-shadow(0px 0px 30px #9ff0b1);
+    filter: drop-shadow(0px 0px 30px #000000);
 
 
 }
 
 #imagem_volei_mulher {
-    width: 24.45%;
-    margin: 3vw 3vw;
+    
+    width: 80%;
+    margin: 19% 12%;
     border-radius: 30%;
-    filter: drop-shadow(0px 0px 30px #9ff0b1);
+    filter: drop-shadow(0px 0px 30px #000000);
 
 }
