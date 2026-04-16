@@ -6,22 +6,45 @@
 .cabecalho ul li {
     list-style: none;
     display: inline-flex;
-    margin: 0.2%;
-    margin-left: 12%;
-
+    height: 5vh;
+    width: 10%;
+    background-color: transparent;
+    border-right: 2px solid #080808;
+    align-items: center;
+    
 }
+
+.cabecalho ul li:last-child {
+    border-right: none;
+}
+
+.cabecalho__ul {
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#active{
+    background-color: rgb(161, 158, 161);
+    border-radius: 50%;
+}
+
+
 
 .cabecalho a {
     font-size: 140%;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     word-spacing: 0%;
     line-height: 90%;
     color: #080808;
-    background-color: #ccc;
+    background-color: transparent;
+    padding: 10px;
+    align-items: center;
 
 }
 
@@ -30,4 +53,3 @@
 .cabecalho a:hover {
     color: white;
 }
-
