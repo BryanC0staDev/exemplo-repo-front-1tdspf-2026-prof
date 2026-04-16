@@ -1,4 +1,23 @@
-@import url('./base.css');
-@import url('./cabecalho.css');
+@import url('./assets/css/base.css');
+@import url('./assets/css/cabecalho.css');
 
 
+* { 
+    background-color: antiquewhite;
+}
+
+
+.cabecalho ul li {
+  list-style: none;
+}
+.cabecalho a{
+    font-size: 130%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: left;
+    text-decoration: none;
+    word-spacing: 0.1vw;
+    line-height: 90%;
+
+}
