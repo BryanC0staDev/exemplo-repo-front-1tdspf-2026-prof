@@ -8,8 +8,9 @@
 
 .main__div {
     display: flex;
-    gap:1%;
+    gap: 1%;
     margin: 0% 0.2%;
+    justify-content: space-between;
 }
 
 #div_basquete {
@@ -20,6 +21,7 @@
     border-radius: 10%;
     background-color: #ccc;
 }
+
 #texto_basquete {
     font-size: 120%;
     font-weight: bold;
@@ -30,6 +32,8 @@
     word-spacing: 20%;
     line-height: 120%;
     color: #000000;
+    background-color: transparent;
+
     margin: 5% 5%;
 }
 
@@ -42,6 +46,7 @@
 
 
 }
+
 #texto_futebol {
     font-size: 120%;
     font-weight: bold;
@@ -52,6 +57,7 @@
     word-spacing: 20%;
     line-height: 120%;
     color: #000000;
+    background-color: transparent;
     margin: 5% 5%;
 }
 
@@ -63,12 +69,15 @@
     background-color: #ccc;
 
 }
+
 #texto_volei {
     font-size: 120%;
     font-weight: bold;
     font-family: cursive;
     font-style: italic;
     text-align: justify;
+    background-color: transparent;
+
     text-decoration: none;
     word-spacing: 20%;
     line-height: 120%;
