@@ -8,13 +8,12 @@
 
 .main__div {
     display: flex;
-    gap: 1%;
-    margin: 0% 0.2%;
-    justify-content: space-between;
+    margin: 0% 0.0%;
+    justify-content: space-around;
 }
 
 #div_basquete {
-    width: 32%;
+    width: 30%;
     height: 70vh;
     border: 1px solid #000000;
     padding: 0.01%;
@@ -33,7 +32,6 @@
     line-height: 120%;
     color: #000000;
     background-color: transparent;
-
     margin: 5% 5%;
 }
 
@@ -62,7 +60,7 @@
 }
 
 #div_volei {
-    width: 32%;
+    width: 30%;
     height: 70vh;
     border: 1px solid #000000;
     border-radius: 10%;

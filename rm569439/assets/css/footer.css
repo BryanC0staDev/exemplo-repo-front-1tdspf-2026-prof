@@ -6,17 +6,25 @@
 
 .rodape__p{
         background-color: transparent;
+        display: inline-flex;
 
 }
 
 .rodape__div {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 5.9vh;
+    height: 6.9vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #000;
     color: white;
-    margin-top: 1.5%;
+    margin-top: 1.14%;
+    flex-direction: column;
     
+    
+}
+.rodape a{
+    background-color: transparent;
+    word-spacing: 10%;
+
 }
