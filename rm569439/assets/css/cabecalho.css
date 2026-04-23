@@ -6,7 +6,7 @@
 .cabecalho ul li {
     list-style: none;
     display: inline-flex;
-    height: 5vh;
+    height: 1%;
     width: 10%;
     background-color: transparent;
     border-right: 2px solid #080808;
@@ -18,7 +18,7 @@
     border-right: none;
 }
 
-.cabecalho__ul {
+.cabecalho ul {
     background-color: #ccc;
     display: flex;
     justify-content: center;

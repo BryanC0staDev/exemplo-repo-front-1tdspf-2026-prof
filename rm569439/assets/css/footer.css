@@ -11,14 +11,16 @@
 }
 
 .rodape__div {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 6.9vh;
+    height: 1%;
+    padding: 1.3%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #000;
     color: white;
-    margin-top: 1.14%;
+    margin-top: 1%;
     flex-direction: column;
     
     
@@ -26,5 +28,6 @@
 .rodape a{
     background-color: transparent;
     word-spacing: 10%;
+    border: 1px dotted white;
 
 }
