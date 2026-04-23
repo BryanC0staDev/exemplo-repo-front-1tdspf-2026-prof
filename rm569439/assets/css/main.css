@@ -149,5 +149,13 @@
     line-height: 100%;
     color: #000000;
     margin: 5% 5%;
+    word-spacing: 10px;
     
+    
+}
+
+p::selection{
+    background-color: rebeccapurple;
+    color: #000000;
+    font-weight: 800;
 }
