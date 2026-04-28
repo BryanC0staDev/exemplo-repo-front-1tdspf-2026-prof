@@ -10,7 +10,15 @@
     font-size: 1em;
     font-weight: normal;
 } */
-    
+
+:root{
+    --cor-primaria: #00ff00;
+    --cor-secundaria: #ff0000;
+    --cor-fundo: #55555c;
+    --bg-gradiente: linear-gradient(45deg, #303630, #2d3568, #27273a);
+    --titulo-main: 4rem;
+    --text-main: #fff;
+}   
 
 html{
     /*font-size: 100%; 16px = 1rem */
@@ -39,5 +47,5 @@ ul{
 }
 
 main{
-    font-size: 1em;
+    width: 100%;
 }

@@ -1,8 +1,10 @@
 .cabecalho{
     width: 100%;
-    height: 5%;
-    background-color: #00ff00;
-}
+    height: auto;
+    background: var(--bg-gradiente);
+} 
+
+    
 
 .cabecalho__li{
     display: inline-block;
@@ -11,11 +13,18 @@
 
 .cabecalho__a{
     display: inline-block;
-    background-color: #ff0000;
+   background-color:#fff;
     padding: 4%;
     width: 9vw;
     text-align: center;
-    border: 1px solid #000000;
+    justify-content:center;
+    flex-wrap: nowrap;
+   
+}
+.cabecalho__ul{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
 }
 
 /*PSEUDO CLASSE*/
@@ -23,5 +32,4 @@
 .cabecalho__a:hover{
     background-color: #000000;
     color: #ffffff;
-    border: 1px solid #fff;
 }
