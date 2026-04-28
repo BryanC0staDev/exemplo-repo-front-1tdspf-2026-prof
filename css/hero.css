@@ -42,3 +42,21 @@
     background-color: pink;
     color: #fff;
 }
+@media(min-width:320px) and (max-width:425px) {
+    .hero__title{font-size: 2rem;}
+    .hero__text{
+    font-size: 1.3rem;
+    line-height:1.5rem;}
+    .hero__btn{
+   font-size:1.4rem;
+     width: 30%;
+     height: 3.5%;
+     background-color:pink;
+
+}
+
+
+}
+
+
+

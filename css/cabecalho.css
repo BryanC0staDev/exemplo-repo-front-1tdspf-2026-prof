@@ -33,3 +33,23 @@
     background-color: #000000;
     color: #ffffff;
 }
+
+@media(min-width:320px) {
+
+     .cabecalho__a{
+        padding: 2%;
+        width: 2%;
+        font-size: 2rem;
+            background-color:rgb(255, 255, 255);
+
+    }
+
+    
+    .cabecalho__ul{
+      justify-content: space-around;
+                  background-color:rgb(255, 255, 255);
+
+    }
+
+
+}
